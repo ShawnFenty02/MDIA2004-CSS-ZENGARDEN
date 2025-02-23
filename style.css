@@ -96,7 +96,7 @@ nav li {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: url('fifa-hero.jpg') no-repeat center;
+    background: url('image/fifa-hero.jpg') no-repeat center;
     background-size: cover;
     color: #fff;
 }
