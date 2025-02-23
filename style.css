@@ -1,3 +1,139 @@
 /* css Zen Garden submission 'FIFA Army' based on (199 - 'Zen Army'), by Shawn Fenton, https://shawnfenty02.github.io/ */
 /* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 /* All associated graphics copyright 2025, Shawn Fenton */
+/* FIFA Military-Inspired Dark Theme */
+
+body {
+    background-color: #121212;
+    color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fifa-military-bg.jpg'); /* Add a relevant FIFA-military themed background */
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffd700;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 8px rgba(255, 215, 0, 0.7);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: #ffd700;
+    color: #121212;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #ff4500;
+    color: #fff;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 1.3rem;
+}
+
+/* FIFA Themed Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('fifa-hero.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    border-top: 2px solid #ffd700;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .hero {
+        padding: 50px 20px;
+    }
+}
