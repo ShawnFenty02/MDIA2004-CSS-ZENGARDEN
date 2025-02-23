@@ -22,7 +22,7 @@ body {
 	font: 10pt/18pt "Trebuchet MS", Arial, Verdana, sans-serif;
 	color: #000; 
 	margin: 0px; 
-	background: url(image/fifa field1.jpeg) no-repeat bottom left;
+	background: url(image/fifa field1.jpg) no-repeat bottom left;
 	height:2200px;
 	width:764px;
 	}
@@ -64,7 +64,7 @@ header {
 	margin-bottom: 20px;
 	}
 header { 
-	background: transparent url(image/fifa field1.jpeg) no-repeat top center; 
+	background: transparent url(image/fifa field1.jpg) no-repeat top center; 
 	margin-top: 0px; 
 	width: 764px; 
 	height: 380px; 
